@@ -1,0 +1,47 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+
+    input{
+        align-self: center;
+        width: 100px;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+    
+    aside{
+        text-align: center;
+    }
+
+    footer{
+        font-family: poppinslight;
+        padding: 15px;
+        font-size: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #2e2c2c;
+        color: white;
+        text-align: center;
+    }
+}
