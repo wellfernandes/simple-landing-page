@@ -75,6 +75,26 @@ form{
     width: 70%;
 }
 
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #e58a1f;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
 footer{
     font-family: poppinslight;
     padding: 15px;
